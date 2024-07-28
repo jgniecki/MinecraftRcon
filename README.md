@@ -1,9 +1,9 @@
 Minecraft Rcon
 ==================
-![](https://img.shields.io/packagist/l/jgniecki/minecraft-rcon?style=for-the-badge)
-![](https://img.shields.io/packagist/dt/jgniecki/minecraft-rcon?style=for-the-badge)
+![](https://img.shields.io/packagist/l/dev-lancer/minecraft-rcon?style=for-the-badge)
+![](https://img.shields.io/packagist/dt/dev-lancer/minecraft-rcon?style=for-the-badge)
 ![](https://img.shields.io/github/v/release/jgniecki/MinecraftRcon?style=for-the-badge)
-![](https://img.shields.io/packagist/php-v/jgniecki/minecraft-rcon?style=for-the-badge)
+![](https://img.shields.io/packagist/php-v/dev-lancer/minecraft-rcon?style=for-the-badge)
 
 PHP library to request RCON for Minecraft servers
 ## Installation
@@ -26,8 +26,7 @@ use DevLancer\MinecraftRcon;
 
 $rcon = new Rcon($host, $port, $password, $timeout);
 
-if ($rcon->connect())
-{
+if ($rcon->connect()) {
     if ($rcon->sendCommand("say Hello World!") === false) {
         //bad request
     } else {
