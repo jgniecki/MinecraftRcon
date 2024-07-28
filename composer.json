@@ -1,0 +1,27 @@
+{
+	"name": "dev-lancer/minecraft-rcon",
+	"type": "library",
+	"description": "PHP library to request RCON for Minecraft servers",
+	"keywords": ["rcon", "minecraft", "server", "php"],
+	"homepage": "https://github.com/thedudeguy/PHP-Minecraft-Rcon",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Chris Churchwell",
+			"homepage": "http://chrischurchwell.com",
+			"email": "chris@chrischurchwell.com"
+		},
+		{
+			"name": "Jakub Gniecki",
+			"email": "kubuspl@onet.eu"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"autoload": {
+		"psr-4": { 
+			"DevLancer\\MinecraftRcon\\": "src/"
+		}
+    } 
+}
